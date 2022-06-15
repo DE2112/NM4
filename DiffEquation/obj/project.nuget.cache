@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2Tlw3iUv0tpBx0IF3Hov8NiGiaWsrnAWSfFezg8kSXC/VvfCax/FVCOYJTXz09s8vn04c8R4s0IunQ8ewD1Wiw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\NumMeth4\\DiffEquation\\DiffEquation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\z.expressions.eval\\4.0.68\\z.expressions.eval.4.0.68.nupkg.sha512"
+  ],
+  "logs": []
+}

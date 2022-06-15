@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Z.Expressions.Eval/4.0.68": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Z.Expressions.Eval.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Z.Expressions.Eval.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win7-x86": {
+      "Z.Expressions.Eval/4.0.68": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Z.Expressions.Eval.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Z.Expressions.Eval.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Z.Expressions.Eval/4.0.68": {
+      "sha512": "R3f1JK+4VNzUrAsrpuJ/RHGmNuK3GU5ei+wBwtClxmbKHDb3pObLKQGaw8ArO+GqjfBvxBCFlupybOyZxYdggw==",
+      "type": "package",
+      "path": "z.expressions.eval/4.0.68",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Z.Expressions.Eval.dll",
+        "lib/net40/Z.Expressions.Eval.xml",
+        "lib/net45/Z.Expressions.Eval.dll",
+        "lib/net45/Z.Expressions.Eval.xml",
+        "lib/net6.0/Z.Expressions.Eval.dll",
+        "lib/net6.0/Z.Expressions.Eval.xml",
+        "lib/netstandard2.0/Z.Expressions.Eval.dll",
+        "lib/netstandard2.0/Z.Expressions.Eval.xml",
+        "lib/netstandard2.1/Z.Expressions.Eval.dll",
+        "lib/netstandard2.1/Z.Expressions.Eval.xml",
+        "z.expressions.eval.4.0.68.nupkg.sha512",
+        "z.expressions.eval.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Z.Expressions.Eval >= 4.0.68"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\NumMeth4\\DiffEquation\\DiffEquation.csproj",
+      "projectName": "DiffEquation",
+      "projectPath": "C:\\Users\\user\\source\\repos\\NumMeth4\\DiffEquation\\DiffEquation.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\NumMeth4\\DiffEquation\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "Z.Expressions.Eval": {
+            "target": "Package",
+            "version": "[4.0.68, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}
